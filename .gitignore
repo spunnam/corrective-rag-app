@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+*.env
+.env
+venv/
+*.egg-info/
+
+# Streamlit
+.streamlit/
+
+# Logs and temp
+*.log
+*.tmp
+.DS_Store
+*.sqlite3
+*.db
+
+# OS
+Thumbs.db
+ehthumbs.db
+Icon?
+
+# Jupyter/IPython
+.ipynb_checkpoints
+
+# VSCode
+.vscode/
+
+# Mac/Linux cache
+.cache/
+.idea/
+
+# PDFs or data
+*.pdf
+uploads/
+
+reference.py

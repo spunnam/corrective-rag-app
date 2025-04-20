@@ -1,0 +1,34 @@
+# --- Streamlit UI ---
+streamlit
+nest_asyncio
+python-dotenv
+
+# --- LlamaIndex Core + Extensions ---
+llama-index
+llama-index-core
+llama-index-llms-ollama
+llama-index-vector-stores-qdrant
+llama-index-embeddings-fastembed
+llama-index-tools-tavily-research
+llama-index-tools-linkup-research
+llama-index-llms-groq
+
+llama-index-readers-file
+llama-index-workflow
+
+# --- Vector Store & Embeddings ---
+qdrant-client
+
+# --- PDF Display & Rendering ---
+ipython  # For Markdown display
+PyMuPDF   # Required by LlamaIndex file readers (for PDF support)
+base64io  # Optional for PDF handling
+
+# --- Optional, for asyncio control/debugging ---
+aiohttp
+
+# --- Local LLM or Web Search ---
+ollama  # Only if you're using Ollama locally
+
+# --- Utility Tools ---
+tqdm
