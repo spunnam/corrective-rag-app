@@ -13,7 +13,7 @@ from llama_index.core.workflow import (
 from llama_index.core.base.base_retriever import BaseRetriever
 from llama_index.core.schema import NodeWithScore
 from llama_index.tools.linkup_research.base import LinkupToolSpec
-from utils import RELEVANCY_PROMPT, REFINE_PROMPT
+from core.utils import RELEVANCY_PROMPT, REFINE_PROMPT
 
 load_dotenv()
 

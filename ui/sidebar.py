@@ -1,15 +1,14 @@
 import os
-import uuid
 import tempfile
 import streamlit as st
-from vector_store import (
+from core.vector_store import (
     init_vector_store,
     init_embedding_model,
     create_index_from_documents,
 )
-from pdf_ingestion import load_documents_from_directory
-from utils import load_llm
-from workflow import CorrectiveRAGWorkflow
+from core.pdf_ingestion import load_documents_from_directory
+from core.utils import load_llm
+from core.workflow import CorrectiveRAGWorkflow
 from ui.utils_ui import display_pdf
 
 

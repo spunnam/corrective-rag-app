@@ -1,7 +1,6 @@
 import asyncio
 import time
 import streamlit as st
-from ui.utils_ui import reset_chat
 
 
 def handle_chat_input(run_workflow):
